@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Generator - Create and Share Inspirational Quotes</title>
+  
+  <!-- Meta tags for SEO -->
+  <meta name="description" content="Create custom inspirational quotes with our easy-to-use quote generator. Change backgrounds, text colors, and download quotes as images.">
+  <meta name="keywords" content="quote generator, inspirational quotes, customizable quotes, download quotes, change background color, change text color, Inspirational quote generator, Ai quote generator, Short Quote Generator, Quote generator free">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 class="heading">Quote Generator</h1>
+
+  <div id="quote_container">
+    <blockquote id="quote">"Hello World Bank and A north korean get any five days the friest blog post title."</blockquote>
+    <cite id="author">– Sumon</cite>
+  </div>
+
+  <button id="new-quote" class="btn">
+    <span id="button-text">Get New Quote</span>
+    <span class="loader" id="button-loader"></span>
+  </button>
+  <button id="download-image" class="btn">⬇️</button>
+
+  <div class="customiz_container">
+    <div class="color-picker">
+      <label for="Back_Color">Background color: </label>
+      <input id="Back_Color" type="color" value="#CE0068">
+    </div>
+    
+    <div class="color-picker">
+      <label for="text_color">Text color: </label>
+      <input id="text_color" type="color" value="#FFFFFF">
+    </div>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
